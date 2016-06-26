@@ -24,8 +24,8 @@
 //     // return view('welcome', ['orang'=> $orang]); //array function
 // });
 
-Route::get('/', 'MasterController@index');
-Route::get('/about', 'MasterController@about');
+// Route::get('/', 'MasterController@index');
+// Route::get('/about', 'MasterController@about');
 
 /*
 |--------------------------------------------------------------------------
@@ -39,7 +39,11 @@ Route::get('/about', 'MasterController@about');
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
-
-
+    Route::auth();
+    Route::get('/visitor','VisitorController@visitorForm');
+    Route::post('/visitor','VisitorController@register');
+	Route::get('/home', 'HomeController@index');
+	Route::get('/', 'HomeController@index');
 });
+
+
