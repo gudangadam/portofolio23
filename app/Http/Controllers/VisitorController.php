@@ -55,6 +55,8 @@ class VisitorController extends Controller
                'fromEmail'			=> $email,
                'toEmail'            => $emailAlert,
                'toName'             => $name,
+               'noTelp'				=> $phone,
+               'occupation'			=> $occupation,
                'subject'            => 'Konfirmasi Visitor Baru'
             ]; 
            	$this->sendEmail($data,'auth.emails.visitormail');

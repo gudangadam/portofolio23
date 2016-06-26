@@ -115,7 +115,7 @@ return [
     'driver' => env('MAIL_DRIVER', 'smtp'),
     'host' => env('MAIL_HOST', 'smtp.gmail.com'),
     'port' => env('MAIL_PORT', 587),
-    'from' => ['address' => 'adamworks23@gmail.com', 'name' => 'admin'],
+    'from' => ['address' => 'adamworks23@gmail.com', 'name' => 'GO-JEK VISITOR ALERT'],
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
     'username' => env('MAIL_USERNAME'),
     'password' => env('MAIL_PASSWORD'),

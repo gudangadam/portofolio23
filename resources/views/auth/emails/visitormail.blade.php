@@ -1,128 +1,96 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 !important; height: 100% !important; padding: 0 !important; width: 100% !important;">
-<head style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-    <meta charset="utf-8" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-    <meta name="viewport" content="width=device-width" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-    <title style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">Informasi Visitor Baru</title>
-
-    <!--[if mso]>
-        <style>
-            * {
-                font-family: sans-serif !important;
-            }
-        </style>
-    <![endif]-->
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=600">
+        <meta name="HandheldFriendly" content="true" />
+        <title>GO-JEK VISITOR</title>
+    </head>
     
-    <style style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-        @media screen and (max-width: 480px) {
-            .fluid,.fluid-centered {
-                width: 100% !important;
-                max-width: 100% !important;
-                height: auto !important;
-                Margin-left: auto !important;
-                Margin-right: auto !important;
-            }
-            .fluid-centered {
-                Margin-left: auto !important;
-                Margin-right: auto !important;
-            }
-            .stack-column,.stack-column-center {
-                display: block !important;
-                width: 100% !important;
-                max-width: 100% !important;
-                direction: ltr !important;
-            }
-            .stack-column-center {
-                text-align: center !important;
-            }
-            .center-on-narrow {
-                text-align: center !important;
-                display: block !important;
-                Margin-left: auto !important;
-                Margin-right: auto !important;
-                float: none !important;
-            }
-            table.center-on-narrow {
-                display: inline-block !important;
-            }
-        }
-    </style>
+    <body style="background:#FFF; margin:0; padding:0">        
+        <table border="0" cellspacing="0" cellpadding="0" style=" display:block; font-family:Helvetica, sans-serif; font-size:1em; width:600px; margin:20px auto; color:#4f4f4f; border:1px solid #f0f1f1;">
+            <tr style="display:block;">
+                <td colspan="2" style="background:#f0f1f1; padding:15px; border-bottom:3px solid #efefec; width:600px;">
+                    <table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
+                        <tr style="width:100%;">
+                            <td style="text-align:left; width:50%;"><img src="https://pbs.twimg.com/profile_images/658079986130096129/KOOZYL9p.png" 
+                            alt="Go-Jek" style="vertical-align:middle; width:60px; height:60px" /></td>
+                            <td style="text-align:right; width:50%;  font-size:1em; font-weight: bold; ">Visitor Alert</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr style="display:block">
+                <td colspan="2" style="position:relative; background:#FFF; padding:15px 15px 35px 15px; border-bottom:3px solid #efefec; display:block; margin: 0px 0 0 0;">
+                    <table border="0" cellspacing="0" cellpadding="0" style="width:100%; margin-top:30px;">
+                        <tr style=" display:block; width:100%; ">
+                            <td style=" width:100%; font-size:1em; line-height:1.5em; display:block; ">
+    
+                                Sistem Baru saja menerima data visitor Baru sebagai berikut : <br><br>
 
-</head>
-
-<body width="100%" bgcolor="#ffffff" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 !important; height: 100% !important; padding: 0 !important; width: 100% !important;">
-    <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#ffffff" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 auto !important; border-collapse: collapse !important; border-spacing: 0 !important; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; table-layout: fixed !important;">
-        <tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-            <td valign="top" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
-                <center style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; width: 100%;">
-                    
-                    <div style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; display: none; font-family: sans-serif; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; mso-hide: all; opacity: 0; overflow: hidden;">
-                       Anda Menerima Visitor Baru
-                    </div>
-
-                    <div style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; max-width: 680px;">
-                        <!--[if (gte mso 9)|(IE)]>
-                        <table cellspacing="0" cellpadding="0" border="0" width="680" align="center">
-                        <tr>
-                        <td>
-                        <![endif]-->
-
-                        {{-- Email Header : BEGIN --}}
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 auto !important; border-collapse: collapse !important; border-spacing: 0 !important; max-width: 680px; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; table-layout: fixed !important;">
-                            <tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                <td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 20px 0; text-align: center;">
-                                    <img src="http://media.tripvisto.com.s3.amazonaws.com/images/tripvisto-logo.png" width="170" alt="Tripvisto Logo" border="0" style="-ms-interpolation-mode: bicubic; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                </td>
-                            </tr>
-                        </table>
-                        {{-- Email Header : END --}}
-                        
-                        {{-- Email Body : BEGIN --}}
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 auto !important; border-collapse: collapse !important; border-spacing: 0 !important; max-width: 680px; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; table-layout: fixed !important;">
-                            {{-- 1 Column Text + Button : BEGIN --}}
-                            <tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                <td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
-                                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 auto !important; border-collapse: collapse !important; border-spacing: 0 !important; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; table-layout: fixed !important;">
-                                        <tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                            <td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #555555; font-family: sans-serif; font-size: 13px; line-height: 20px; mso-height-rule: exactly; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 10px; text-align: center;">
-                                                <span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #111111; font-size: 22px; font-weight: 600;">Hanya satu langkah lagi!</span>
-                                                <br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                                Klik tombol di bawah ini untuk melanjutkan proses pendaftaran anda.
-                                                <br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                                {{-- Button : Begin --}}
-                                                <table cellspacing="0" cellpadding="0" border="0" align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; Margin: 0 auto !important; border-collapse: collapse !important; border-spacing: 0 !important; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; table-layout: fixed !important;">
-                                                    <tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                                        <td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #e05443; border-radius: 3px; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; text-align: center; transition: all 100ms ease-in;" class="button-td">
-                                                            
-                                                                <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Konfirmasi alamat email<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                {{-- Button : END --}}
-                                                <br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
-                                                Tombol tidak bekerja? Silahkan klik atau copy paste alamat URL di bawah ke browser anda.
-                                                <br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+                                <table border="0" cellspacing="0" cellpadding="0" style=" display:block; width: 100%; color: #566069">
+                                    <tbody style="padding: 5px; display: block; width: 100%; margin-bottom: 0; padding: 0">
+                                        <tr style="padding: 5px; display: block; width: 100%; margin-bottom: 0; padding: 0; clear: both; ">
+                                            <td style="display: inline-block; width: 20%;  ">
+                                                Nama 
+                                            </td>
+                                            <td style="display: inline-block; width: 75%; float: right; ">
+                                                : <b>{{ $toName }}</b>
                                             </td>
                                         </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            {{-- 1 Column Text + Button : BEGIN --}}
-                        </table>
-                        {{-- Email Body : END --}}
-                      
-                        <!--[if (gte mso 9)|(IE)]>
-                        </td>
-                        </tr>
-                        </table>
-                        <![endif]-->
-                    </div>
 
-                </center>
-            </td>
-        </tr>
-    </table>
-</body>
+                                        <tr style="padding: 5px; display: block; width: 100%; margin-bottom: 0; padding: 0; clear: both; ">
+                                            <td style="display: inline-block; width: 20%;  ">
+                                                Email 
+                                            </td>
+                                            <td style="display: inline-block; width: 75%; float: right; ">
+                                                : <b style="color: #2a6494">{{ $fromEmail }}</b>
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 5px; display: block; width: 100%; margin-bottom: 0; padding: 0; clear: both;">
+                                            <td style="display: inline-block; width: 20%;">
+                                                Nomer Telepon
+                                            </td>
+                                            <td style="display: inline-block; width: 75%; float: right;">
+                                                : <b>{{ $noTelp }}</b>
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 5px; display: block; width: 100%; margin-bottom: 0; padding: 0; clear: both;">
+                                            <td style="display: inline-block; width: 20%;">
+                                                Pekerjaan 
+                                            </td>
+                                            <td style="display: inline-block; width: 75%; float: right;">
+                                                : <b>{{ $occupation }}</b>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br><br>
+
+                            </td>
+                        </tr>
+                        
+                        <tr style="margin-bottom:15px; display:block">
+                            <td style=" width:100%; font-size:1em; line-height:1.5em;">
+                                Terima kasih,<br>
+                                Go-Jek Visitor Customer Support.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr style="display:block">
+                <td style="background:#f0f1f1; padding:15px 15px 5px; border-bottom:3px solid #f0f1f1; display:block">
+                    <table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
+                        <tr style=" margin-bottom:10px; display:block">
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+
+    </body>
 </html>
